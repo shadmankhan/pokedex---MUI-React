@@ -1,0 +1,69 @@
+* {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+#heading {
+  padding-top: 20px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+#insideHeader {
+  overflow-y: hidden;
+  color: #111;
+}
+
+#grid-item {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  cursor: default;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3),
+    0 1px 2px rgba(0, 0, 0, 0.3);
+  transition: all 0.4s ease;
+}
+
+#grid-item:hover {
+  box-shadow: inset 0 0 0 16px rgba(255, 255, 255, 0.6),
+    0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+#card-info {
+  color: #111;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 22px;
+  word-wrap: break-word;
+  margin: 0 30px;
+  padding: 45px 0 0 0;
+  height: 100px;
+  font-family: "Open Sans", Arial, sans-serif;
+  text-shadow: 0 0 1px #fff, 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+#card-info:hover {
+  color: Red;
+}
+
+#card-item:hover #card-info {
+  transform: scale(1);
+  opacity: 1;
+}
+.headTop {
+  display: flex;
+  align-items: flex-end;
+  background-color: #fff;
+  border-radius: 2px;
+  color: #111;
+}
+
+a {
+  color: #fff;
+}
+
+a:active {
+  color: rgb(245, 223, 223);
+}
